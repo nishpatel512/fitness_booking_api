@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# SQLite DB
+*.db
+booking.db
+
+# VS Code settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
