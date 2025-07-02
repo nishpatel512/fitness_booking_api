@@ -54,7 +54,7 @@ Create a `.env` file in the root of the project and add:
 
 ```env
 DATABASE_URL=sqlite+aiosqlite:///./booking.db
-ENV=dev
+ENV=prod
 TIMEZONE=Asia/Kolkata
 ```
 
