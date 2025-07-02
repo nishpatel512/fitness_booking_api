@@ -1,29 +1,22 @@
-Your `README.md` content looks great overall — it clearly outlines your project and steps to get started. ✅
-However, there are **a few formatting issues** you should fix so that markdown renders properly on GitHub:
-
----
-
-### ✅ Polished & Corrected `README.md`
-
 ````markdown
-# 🏋️‍♂️ Fitness Booking API
+# Fitness Booking API
 
 A FastAPI-based application for booking fitness classes like Yoga, Zumba, and HIIT with timezone support, input validation, and logging.
 
 ---
 
-## 📦 Features
+##Features
 
-- 📅 List available fitness classes
-- 🧾 Book a class (with available slot validation)
-- 🕒 Convert class timings based on user-specified timezones
-- ✉️ Retrieve bookings by email
-- 🛡️ Basic error handling and input validation
-- 📜 Clean logging and environment-based configuration
+- List available fitness classes
+- Book a class (with available slot validation)
+- Convert class timings based on user-specified timezones
+- Retrieve bookings by email
+- Basic error handling and input validation
+- Clean logging and environment-based configuration
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: FastAPI (Python 3.11)
 - **Database**: SQLite (Async with SQLAlchemy)
@@ -33,7 +26,7 @@ A FastAPI-based application for booking fitness classes like Yoga, Zumba, and HI
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -93,5 +86,3 @@ MIT
 [Nish Patel](https://github.com/nishpatel512)
 
 ````
-
----
