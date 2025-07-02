@@ -74,12 +74,74 @@ The app will be available at: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 📄 License
+## Sample Requests
+
+### Get All Classes (with optional timezone)
+
+**cURL:**
+
+```bash
+curl -X GET "http://localhost:8000/classes?tz=UTC" -H "accept: application/json"
+```
+
+**Postman:**
+
+* Method: `GET`
+* URL: `http://localhost:8000/classes?tz=UTC`
+
+---
+
+### Book a Class
+
+**cURL:**
+
+```bash
+curl -X POST "http://localhost:8000/book" \
+-H "Content-Type: application/json" \
+-d '{
+  "class_id": 1,
+  "client_name": "Nish Patel",
+  "client_email": "nish@example.com"
+}'
+```
+
+**Postman:**
+
+* Method: `POST`
+* URL: `http://localhost:8000/book`
+* Body → Raw → JSON:
+
+```json
+{
+  "class_id": 1,
+  "client_name": "Nish Patel",
+  "client_email": "nish@example.com"
+}
+```
+
+---
+
+### Get Bookings by Email
+
+**cURL:**
+
+```bash
+curl -X GET "http://localhost:8000/bookings?email=nish@example.com" -H "accept: application/json"
+```
+
+**Postman:**
+
+* Method: `GET`
+* URL: `http://localhost:8000/bookings?email=nish@example.com`
+
+---
+
+## License
 
 MIT
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 [Nish Patel](https://github.com/nishpatel512)
