@@ -1,4 +1,3 @@
-````markdown
 # Fitness Booking API
 
 A FastAPI-based application for booking fitness classes like Yoga, Zumba, and HIIT with timezone support, input validation, and logging.
