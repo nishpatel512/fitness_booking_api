@@ -4,7 +4,7 @@ A FastAPI-based application for booking fitness classes like Yoga, Zumba, and HI
 
 ---
 
-##Features
+## Features
 
 - List available fitness classes
 - Book a class (with available slot validation)
@@ -83,5 +83,3 @@ MIT
 ## 👨‍💻 Author
 
 [Nish Patel](https://github.com/nishpatel512)
-
-````
